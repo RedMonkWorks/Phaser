@@ -60,7 +60,7 @@ var GameScene1 = new Phaser.Class({
 });
 
 //create a scene with class
-/*var GameScene2 = new Phaser.Class({
+var GameScene2 = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize:
 
@@ -181,7 +181,7 @@ var GameScene3 = new Phaser.Class({
         emitter.startFollow(logo1, -60, 30);
     }
 });
-*/
+
 //settings required to configure the game
 var config = {
     type: Phaser.AUTO,   
