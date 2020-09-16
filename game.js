@@ -47,7 +47,7 @@ var GameScene1 = new Phaser.Class({
         house = this.add.sprite(300, 250, 'House');
         house.setScale(0.5);
 
-        backgroundMusic = game.add.audio('first');
+        //backgroundMusic = game.add.audio('first');
 
         haunted.setInteractive({ useHandCursor: true });
         haunted.setInteractive().on('pointerdown', function() {
