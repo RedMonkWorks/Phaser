@@ -1,4 +1,3 @@
-//https://steemit.com/utopian-io/@onepice/create-scenes-and-scene-transitions-at-phaser3-library
 var GameScene1 = new Phaser.Class({
 
     Extends: Phaser.Scene,
