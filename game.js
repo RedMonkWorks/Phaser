@@ -201,7 +201,7 @@ var config = {
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
 
-    scene:[GameScene1]
+    scene:[GameScene1, GameScene2, GameScene3]
 
 };
 
