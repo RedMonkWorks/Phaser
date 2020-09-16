@@ -48,10 +48,11 @@ var GameScene1 = new Phaser.Class({
         house.setScale(0.5);
 
         backgroundMusic = game.add.audio('first');
+        backgroundMusic.play();
 
         haunted.setInteractive({ useHandCursor: true });
         haunted.setInteractive().on('pointerdown', function() {
-            //backgroundMusic.play();
+            
         });
         
         cursors = this.input.keyboard.createCursorKeys();
@@ -59,7 +60,7 @@ var GameScene1 = new Phaser.Class({
 });
 
 //create a scene with class
-var GameScene2 = new Phaser.Class({
+/*var GameScene2 = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize:
 
@@ -180,7 +181,7 @@ var GameScene3 = new Phaser.Class({
         emitter.startFollow(logo1, -60, 30);
     }
 });
-
+*/
 //settings required to configure the game
 var config = {
     type: Phaser.AUTO,   
@@ -200,7 +201,7 @@ var config = {
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
 
-    scene:[GameScene1, GameScene2, GameScene3]
+    scene:[GameScene1]
 
 };
 
