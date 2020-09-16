@@ -48,11 +48,10 @@ var GameScene1 = new Phaser.Class({
         house.setScale(0.5);
 
         backgroundMusic = game.add.audio('first');
-        backgroundMusic.play();
 
         haunted.setInteractive({ useHandCursor: true });
         haunted.setInteractive().on('pointerdown', function() {
-            
+            //backgroundMusic.play();
         });
         
         cursors = this.input.keyboard.createCursorKeys();
